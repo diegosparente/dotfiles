@@ -1,0 +1,2 @@
+#ENVIRONMENT VARIABLES NODEJS
+set --export NODE_ENV development
