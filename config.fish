@@ -14,7 +14,10 @@ source ~/.config/fish/conf.d/java.fish
 source ~/.config/fish/conf.d/laravel.fish
 
 #FLUTTER MANAGER
-source ~/.config/fish/conf.d/flutter.fish
+#source ~/.config/fish/conf.d/flutter.fish
+
+# GOLANG MANAGER
+source ~/.config/fish/conf.d/go.fish
 
 #ANOTHER CONF
 source ~/.config/fish/conf.d/another_conf.fish
