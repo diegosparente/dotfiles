@@ -21,3 +21,7 @@ end
 
 set --export LARAVEL $HOME/.config/composer/vendor/bin;
 set -gx PATH $LARAVEL $PATH;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b22fc03 (Adjusting my fish shell settings)
