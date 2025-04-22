@@ -1,31 +1,18 @@
-#ASDF MANAGER
-source ~/.asdf/asdf.fish
+for config_file in ~/.config/fish/conf.d/*.fish
+    if test -f $config_file
+        source $config_file
+    end
+end
 
-#ANDROID MANAGER
-source ~/.config/fish/conf.d/android.fish
-
-#NODEJS MANAGER
-source ~/.config/fish/conf.d/nodejs.fish
-
-#JAVA MANAGER
-source ~/.config/fish/conf.d/java.fish
-
-#LARAVEL MANAGER
-source ~/.config/fish/conf.d/laravel.fish
-
-#FLUTTER MANAGER
-#source ~/.config/fish/conf.d/flutter.fish
-
-# GOLANG MANAGER
-source ~/.config/fish/conf.d/go.fish
-
-#ANOTHER CONF
-source ~/.config/fish/conf.d/another_conf.fish
-
-
-#STARSHIP.rs
 starship init fish | source
 
+$HOME/.local/bin/mise activate fish | source
+
+alias kubectl="minkube kubectl --"
+
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    set -g fish_history_size 10000
+    set -g fish_history_merge_mode overwrite
+
+    set -g fish_features stderr-nocaret qmark-noglob ampersand-nobg-in-token
 end
