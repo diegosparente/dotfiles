@@ -8,7 +8,7 @@ starship init fish | source
 
 $HOME/.local/bin/mise activate fish | source
 
-alias kubectl="minkube kubectl --"
+alias kubectl="minikube kubectl --"
 
 if status is-interactive
     set -g fish_history_size 10000
