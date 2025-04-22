@@ -11,9 +11,9 @@ If it makes sense to you, feel free to use it.
 ### Terminal/command line
 
 - [Fish Shell](https://fishshell.com/)
-- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [asdf-vm](https://asdf-vm.com/)
-- [docker](https://www.docker.com/)
+- [Starship](https://starship.rs/)
+- [Mise](https://mise.jdx.dev/)
+- [Docker](https://www.docker.com/)
 
 ## Fonts
 
