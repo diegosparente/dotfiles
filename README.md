@@ -17,8 +17,8 @@ If it makes sense to you, feel free to use it.
 
 ## Fonts
 
-- [Cascadia Code](https://github.com/microsoft/cascadia-code)
-- [MesloLGS NF](https://github.com/romkatv/powerlevel10k#fonts)
+- [DankMono](https://philpl.gumroad.com/l/dank-mono)
+- [RecMono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Recursive.zip)
 
 ## Code Editor
 
