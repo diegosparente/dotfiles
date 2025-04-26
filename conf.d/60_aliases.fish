@@ -1,0 +1,8 @@
+alias fc='nvim ~/.config/fish/config.fish'
+alias lc='nvim ~/.config/fish/conf.d/laravel.fish'
+alias vc='nvim ~/.config/fish/conf.d/flutter.fish'
+alias jc='nvim ~/.config/fish/conf.d/java.fish'
+alias workspace='open ~/Workspace'
+alias tx='nvim ~/.config/tmux/tmux.conf'
+alias al='nvim ~/.config/alacritty/alacritty.toml'
+#alias activate='source venv/bin/activate.fish'
